@@ -1,0 +1,49 @@
+name: pinpotha
+description: Pin Potha - free and open-source good deeds journal by Dinusha Rukshan.
+publish_to: 'none'
+version: 2.0.0+20
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.3
+  uuid: ^4.5.1
+  image_picker: ^1.2.3
+  file_picker: ^12.3.0
+  flutter_image_compress: ^2.5.1
+  google_sign_in: ^7.2.0
+  extension_google_sign_in_as_googleapis_auth: ^3.0.0
+  googleapis: ^17.0.0
+  googleapis_auth: ^2.3.3
+  http: ^1.5.0
+  intl: ^0.20.2
+  pdf: ^3.11.3
+  printing: ^5.14.3
+  url_launcher: ^6.3.2
+  flutter_sticky_header: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/pin_potha_logo.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/pin_potha_logo.png
+  adaptive_icon_foreground: assets/pin_potha_logo.png
+  adaptive_icon_background: '#6D4AFF'
+  remove_alpha_ios: true
